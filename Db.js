@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/deepfake");
+mongoose.connect("mongodb+srv://Deepfake:deepfake@cluster0.3zpx7oc.mongodb.net/deepfake");
 
 const userSchema = new mongoose.Schema({
     username: {
